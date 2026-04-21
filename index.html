@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Robots</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Crea una página de promoción de un robot de juguete con IA conversacional (hay algunos ejemplos en internet)
+Es una sola página. Que contenga: 
+
+- Un menú horizontal (flex) que contenga enlaces (pueden ser #) creado como lista y li
+- Una o más fotos del producto
+- listado de caracteristicas (usar listas)
+- Probar a usar una o más tipografias Google Font
+- Botón de 'comprar' aparte del menú, que vaya a la página original del robot. En el botón puedes aplicar estilos como: color de fondo y de texto, borde, border-radius, sombras, hover
+- Recuerda usar los divs y los displays (block, inline-block y flex) para organizar la página -->
+
+
+<h1>Robots de IA</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Mogra&family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
+
+<nav class="menu-horizontal">
+    <ul class="nav-list">
+        <li class="nav-item">
+     <a href="#" class="menu_link">HOME</a>
+        </li>
+
+   <li class="dropdown">
+      <button class="dropdown_button">NOVEDADES</button>
+          <ul class="dropdown-content">
+           <li><a href="#">Producto 1</a></li>
+           <li><a href="#">Producto 2</a></li>
+          </ul>
+   </li>
+
+     <li class="dropdown">
+      <button class="dropdown_button">NOVEDADES 2</button>
+          <ul class="dropdown-content">
+           <li><a href="#">Producto 1</a></li>
+           <li><a href="#">Producto 2</a></li>
+          </ul>
+   </li>
+    </ul>
+</nav>
+
+<div class="galeria-horizontal">
+
+    <div class="tarjeta-robot">
+        <!-- <div class="contenido-fotos"> -->
+        <a href="https://www.amazon.es/Eilik-compa%C3%B1ero-escritorio-inteligencia-interacciones/dp/B09XGQMSMB/ref=asc_df_B09XGQMSMB?mcid=1a917ee251b236d9bce4050b432604df&tag=googshopes-21&linkCode=df0&hvadid=699759297085&hvpos=&hvnetw=g&hvrand=13020419897631572463&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198496&hvtargid=pla-1909773514489&psc=1&hvocijid=13020419897631572463-B09XGQMSMB-&hvexpln=0" class="galeria-item">
+                <img src="Img/robot_mascota.webp" alt="Robot mascota">
+                <span class="boton-encima">Comprar</span>
+        </a> 
+    
+
+        <div class="info-producto">
+
+        <h3>Características</h3>
+        <ul class="lista-caracteristicas">
+            <li>Inteligencia emocional</li>
+            <li>Reacción al tacto</li>
+            <li>Expresiones animadas</li>
+        </ul>
+        </div>
+     </div>
+
+    <div class="tarjeta-robot">
+        <a href="https://es.dreamstime.com/adorable-robot-blanco-juguete-futurista-compa%C3%B1ero-de-ia-amigable-para-ni%C3%B1os-renderizado-d-generado-por-image359350811" class="galeria-item">
+        <img src="Img/robot_compañero.webp" alt="Robot compañero">
+        <span class="boton-encima">Comprar</span>
+        </a>
+    
+     <div class="info-producto">
+
+        <h3>Características</h3>
+        <ul class="lista-caracteristicas">
+            <li>Inteligencia emocional</li>
+            <li>Reacción al tacto</li>
+            <li>Expresiones animadas</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="tarjeta-robot">
+        <a href="http://amazon.es/Gen%C3%A9rico-Robot-Interactivo-Mini-Ni%C3%B1os/dp/B0G8ZQXQJS" class="galeria-item">
+        <img src="Img/mini_robot.webp" alt="Robot mini">
+        <span class="boton-encima">Comprar</span>
+        </a>
+    
+     <div class="info-producto">
+
+        <h3>Características</h3>
+        <ul class="lista-caracteristicas">
+            <li>Inteligencia emocional</li>
+            <li>Reacción al tacto</li>
+            <li>Expresiones animadas</li>
+        </ul>
+      </div>
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>
